@@ -1,0 +1,39 @@
+#openclass {
+  width: 100%; }
+  #openclass .oc_tuijian {
+    height: 3rem;
+    font-size: 0.5rem;
+    line-height: 1rem;
+    overflow: hidden;
+    padding: 0.3rem;
+    border-bottom: 1px solid #999; }
+  #openclass .qs_category {
+    width: 9rem;
+    margin: 0.1rem auto;
+    padding: 0.2rem 0;
+    border-bottom: 1px solid #999; }
+    #openclass .qs_category li {
+      border: 1px solid red;
+      text-align: center;
+      padding: 10px 15px;
+      background-color: #fff;
+      color: red;
+      display: inline-block;
+      margin-right: 0.3rem;
+      border-radius: 14px; }
+  #openclass .videoList .v_type {
+    text-align: center;
+    font-size: 0.4rem;
+    margin-bottom: 0.3rem; }
+  #openclass .videoList .video {
+    width: 4.5rem;
+    height: 3.8rem;
+    display: inline-block;
+    overflow: hidden;
+    margin-left: 0.28rem; }
+    #openclass .videoList .video img {
+      width: 4.5rem; }
+    #openclass .videoList .video .v_title {
+      white-space: nowrap; }
+
+/*# sourceMappingURL=openclass.css.map */

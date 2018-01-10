@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+#details{
+  width:100%;
+  .dbody{
+    padding:0.3rem;
+  }
+  h1.title{
+    font-size: 0.8rem;
+  }
+  .autor,.dshorttitle{
+    font-size: 0.4rem;
+  }
+
+  .dtools{
+    position:fixed;
+    right:0.1rem;
+    bottom:0.1rem;
+    ul{
+      width:1rem;
+      li{
+        width:1rem;
+        text-align: center;
+        height:1rem;
+        overflow: hidden;
+        background-color: red;
+        color:#fff;
+        margin-bottom:0.2rem;
+      }
+    }
+  }
+}

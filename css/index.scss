@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+.home_headimg{
+  position: relative;
+  width:10rem;
+  text-align: center;
+  height: 6.18rem;
+  overflow: hidden;
+  margin:0 auto;
+  .bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width:10rem;
+    height: 6.18rem;
+    -webkit-transition: opacity .9s linear;
+    -moz-transition: opacity .9s linear;
+    -o-transition: opacity .9s linear;
+    transition: opacity .9s linear;
+    opacity:0;
+    filter: alpha(opacity=0);
+
+  }
+  .fadeIn {
+    opacity: 100;
+    filter: alpha(opacity=100);
+  }
+  #bg1 {
+    background: url("../images/adv_0.jpg") no-repeat;
+    background-size: 10rem 6.18rem;
+  }
+  #bg2 {
+    background: url("../images/adv_1.jpg") no-repeat;
+    background-size: 10rem 6.18rem;
+  }
+  #bg3 {
+    background: url("../images/adv_2.jpg") no-repeat;
+    background-size: 10rem 6.18rem;
+  }
+  #bg4 {
+    background: url("../images/adv_3.jpg") no-repeat;
+    background-size: 10rem 6.18rem;
+  }
+  #bg5 {
+    background: url("../images/adv_4.jpg") no-repeat;
+    background-size: 10rem 6.18rem;
+  }
+
+  .pagination {
+    width: auto;
+    display: table;
+    margin: 0 auto
+  }
+  .pagination-panel {
+    width: 100%;
+    position: absolute;
+    bottom: 0.5rem;
+    z-index: 100;
+    height: auto
+  }
+  .pagination li {
+    border-radius: 0.5rem;
+    width:0.5rem;
+    height:0.5rem;
+    background: #fff;
+    float: left;
+    margin-right:0.15rem;
+    margin-left:0.15rem;
+    list-style-type: none
+  }
+
+  .pagination li.active {
+    background: #52c6d8
+  }
+  .pagination li:last-child {
+    margin-right: 0
+  }
+
+}
+
+#home{
+  width:100%;
+  overflow: hidden;
+  .classification{
+    max-width:10rem;
+    margin:0 auto;
+    li{
+      display:inline-block;
+      margin-left:0.7rem;
+      margin-top:0.4rem;
+      width:3.8rem;
+      height:2rem;
+      border-radius: 1rem;
+      text-align: center;
+      line-height:2rem;
+      font-size: .8rem;
+      font-weight:bold;
+      color: #fff;
+      overflow: hidden;
+
+    }
+
+
+
+    li:nth-of-type(1){
+      background-color: #00FF99;
+    }
+    li:nth-of-type(2){
+      background-color: #33CCFF;
+    }
+    li:nth-of-type(3){
+      background-color: #FF9966;
+    }
+    li:nth-of-type(4){
+      background-color: #CC66CC;
+    }
+    li:nth-of-type(5){
+      background-color: #CC66CC;
+    }
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

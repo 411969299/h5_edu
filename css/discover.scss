@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+#discover{
+  width:100%;
+  overflow: hidden;
+
+  .discover_head{
+    background-color: #fff;
+    height:7rem;
+    overflow: hidden;
+    position: fixed;
+    z-index:10;
+    top:0;
+    width:10rem;
+  }
+  .qs_title_img,.qs_title_img img{
+    width:3rem;
+    height:2rem;
+    margin:0 auto;
+  }
+  .qs_title_img{
+    margin-top:1rem;
+  }
+  .qs_title{
+    text-align: center;
+    font-size: 0.8rem;
+    margin-top:0.3rem;
+  }
+  .qs_shorttitle{
+    text-align: center;
+  }
+  .qs_jianjie{
+    width:9rem;
+    margin:0 auto;
+    font-size: 0.4rem;
+    margin-top:0.3rem;
+  }
+
+  .discover_body{
+    background-color: #fafafa;
+    border-top:1px solid #999;
+    position: relative;
+    z-index: 20;
+    margin-top:7rem;
+  }
+  .qs_category{
+    ul{
+      width:9rem;
+      margin:0 auto;
+      margin-top:0.3rem;
+    }
+    li{
+      border:1px solid red;
+      text-align: center;
+      padding:10px 15px;
+      background-color: #fff;
+      color:red;
+      display:inline-block;
+      margin-right:0.3rem;
+      border-radius: 14px;
+      margin-bottom:0.3rem;
+    }
+  }
+}
+
+
+
+
+
+
+

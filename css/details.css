@@ -1,0 +1,24 @@
+#details {
+  width: 100%; }
+  #details .dbody {
+    padding: 0.3rem; }
+  #details h1.title {
+    font-size: 0.8rem; }
+  #details .autor, #details .dshorttitle {
+    font-size: 0.4rem; }
+  #details .dtools {
+    position: fixed;
+    right: 0.1rem;
+    bottom: 0.1rem; }
+    #details .dtools ul {
+      width: 1rem; }
+      #details .dtools ul li {
+        width: 1rem;
+        text-align: center;
+        height: 1rem;
+        overflow: hidden;
+        background-color: red;
+        color: #fff;
+        margin-bottom: 0.2rem; }
+
+/*# sourceMappingURL=details.css.map */

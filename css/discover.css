@@ -1,0 +1,50 @@
+#discover {
+  width: 100%;
+  overflow: hidden; }
+  #discover .discover_head {
+    background-color: #fff;
+    height: 7rem;
+    overflow: hidden;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    width: 10rem; }
+  #discover .qs_title_img, #discover .qs_title_img img {
+    width: 3rem;
+    height: 2rem;
+    margin: 0 auto; }
+  #discover .qs_title_img {
+    margin-top: 1rem; }
+  #discover .qs_title {
+    text-align: center;
+    font-size: 0.8rem;
+    margin-top: 0.3rem; }
+  #discover .qs_shorttitle {
+    text-align: center; }
+  #discover .qs_jianjie {
+    width: 9rem;
+    margin: 0 auto;
+    font-size: 0.4rem;
+    margin-top: 0.3rem; }
+  #discover .discover_body {
+    background-color: #fafafa;
+    border-top: 1px solid #999;
+    position: relative;
+    z-index: 20;
+    margin-top: 7rem; }
+  #discover .qs_category ul {
+    width: 9rem;
+    margin: 0 auto;
+    margin-top: 0.3rem; }
+  #discover .qs_category li {
+    border: 1px solid red;
+    text-align: center;
+    padding: 10px 15px;
+    background-color: #fff;
+    color: red;
+    display: inline-block;
+    margin-right: 0.3rem;
+    border-radius: 14px;
+    margin-bottom: 0.3rem; }
+
+/*# sourceMappingURL=discover.css.map */

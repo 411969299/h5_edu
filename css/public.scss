@@ -1,0 +1,164 @@
+@charset "UTF-8";
+
+
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+//
+//@mixin font-dpr($font-size) {
+//  //font-size: $font-size;
+//  [data-dpr="2"]  {
+//    font-size: $font-size * 2;
+//  }
+//  [data-dpr="3"]  {
+//    font-size: $font-size * 3;
+//  }
+//}
+//@include font-dpr(16px);
+
+ul,li,dl,dt,dd{
+  list-style: none;
+  -webkit-margin-before: 0px;
+  -webkit-margin-after: 0px;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start:0px;
+}
+
+body{
+  padding-bottom:1.4rem;
+}
+
+
+.navRouter{
+  position: fixed;
+  z-index:1000;
+  bottom:0;
+  width:100%;
+  height:1.3rem;
+  background-color: #f4f5f6;
+  ul{
+    text-align: left;
+    width:11rem;
+  }
+  li{
+    text-align: center;
+    height:1.3rem;
+    line-height:1.3rem;
+    width:2.42rem;
+    overflow: hidden;
+    font-size: 0.4rem;
+    display:inline-block;
+    color:#999;
+    font-weight:bold;
+    position: relative;
+    .tips{
+      position: absolute;
+      right:0;
+      top:0;
+      height:0.2rem;
+      line-height:0.2rem;
+      border-radius: 0.1rem;
+      padding:0.1rem 0.2rem;
+      background-color: #f85959;
+      border:2px solid #fff;
+      color:#fff;
+      font-weight:normal;
+    }
+  }
+  .focus{
+    background-color: #FF9966;
+    color:#fff
+  }
+}
+
+.messagePush{
+  margin-top:.4rem;
+  .common_title{
+    margin-top:0.2rem;
+    font-size: .6rem;
+    padding:0 0.2rem;
+    padding-bottom:.1rem;
+    .title{
+      border-bottom:1px solid #000;
+      font-weight:bold;
+    }
+  }
+  .openClass{
+
+  }
+  .goodArticle{
+  }
+  .class_list{
+    li{
+      margin-top:0.2rem;
+      img{
+        width:10rem;
+        border:1px solid #e8e8e8;
+      }
+    }
+  }
+  .mess_list{
+    padding:0 0.2rem;
+    ul{
+      padding:0.1rem;
+    }
+    li{
+      border-bottom:1px solid #999;
+      width:100%;
+      display: flex;
+      justify-content:space-between;
+      align-items:center;
+      flex-wrap:wrap;
+      padding:0.12rem 0rem;
+    }
+    .introduction{
+      overflow: hidden;
+      dt{
+        font-size: 0.4rem;
+        padding-top:0.1rem;
+      }
+    }
+    .mess_img{
+      height:1.9351rem;
+      overflow: hidden;
+    }
+    .mess_img img{
+      width:2.9814rem;
+      height:1.9351rem;
+      border:1px solid #e8e8e8;
+    }
+    .attr{
+      width:100%;
+      color:#999999;
+    }
+    .type_0{
+      height:2.6rem;
+      .introduction{
+        width:6rem;
+        height:2rem;
+      }
+      .mess_img{
+        width:2.9814rem;
+      }
+    }
+
+    .type_1{
+      height:4.0rem;
+      .introduction{
+        width:100%;
+        height:1.2rem;
+      }
+      .mess_img{
+        width:10rem;
+        img{
+          margin-left:0.03rem;
+        }
+      }
+    }
+
+  }
+}

@@ -1,0 +1,14 @@
+#ranklist {
+  width: 100%; }
+
+.ranklist_title {
+  height: 2rem;
+  text-align: center;
+  font-size: 1rem; }
+
+.rlist ul.list-group li.list-group-item {
+  font-size: 0.4rem; }
+.rlist ul.list-group span.badge {
+  font-size: 0.3rem; }
+
+/*# sourceMappingURL=ranklist.css.map */
